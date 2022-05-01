@@ -2,13 +2,13 @@
 title: Hello, world!
 feature_image: "/assets/kandr.png"
 ---
-Hello, world! Last summer, I used some [Ben Eater](https://eater.net){:target="_blank"} videos as well as my own knowledge about the 6502 from learning about the NES and SNES to build a W65C02-based breadboard computer. I tinkered around with a few additional things, such as attaching a [touchscreen](https://www.adafruit.com/product/1770){:target="_blank"} (which also happens to have an SD card slot on the back) and a serial protocol to send messages to my Raspberry Pi using the PS/2 keyboard as well as receive them. I’ve also gotten C code to run on it through [cc65](https://cc65.github.io/){:target="_blank"}. But mostly, I didn’t have too much time for this project during the school year.
+Hello, world! Last summer, I used some [Ben Eater](https://eater.net){:target="_blank"} videos, as well as my own knowledge about the 6502 from learning about the NES and SNES, to build a W65C02-based breadboard computer. From there, I've tinkered around with a few additional things, such as attaching a [touchscreen](https://www.adafruit.com/product/1770){:target="_blank"} (which also happens to have an SD card slot on the back) and making a serial protocol to send and receive messages to and from my Raspberry Pi (typing messages with the PS/2 keyboard). I’ve also gotten C code to run on it through [cc65](https://cc65.github.io/){:target="_blank"}. But mostly, I didn’t have too much time for this project during the school year.
 
-Now, though, I have an idea for what I want this to be: I want this to be a smart thermostat. Maybe you think that’s not that interesting of an idea, but a smart thermostat would require basically everything I want to achieve with this computer. It would need to be able to take input and output through a touchscreen, communicate over the Internet, implement general-purpose I/O for the temperature sensor and thermostat outputs, and it should really read its application code from an SD card so the software can be updated remotely.
+Now, though, I have an idea for what I want this to be: I want to make this computer into a smart thermostat. Maybe you think that’s not that interesting of an idea, but a smart thermostat would require basically everything I want to achieve with this machine. It would need to be able to take input and output through a touchscreen, communicate over the Internet, implement general-purpose I/O for the temperature sensor and thermostat outputs, and it should really read its application code from an SD card so the software can be updated remotely.
 
 In light of this project idea, this post is a technical summary of what specific things I want to make happen with the base of my 6502 computer.
 
-(By the way, if you were wondering what “Sim502” meant, Sim just comes from my name, Simon. Name definitely subject to change.)
+(By the way, if you were wondering what “Sim502” meant, Sim just comes from my name, Simon. Project name definitely subject to change.)
 
 **Hardware**
 
