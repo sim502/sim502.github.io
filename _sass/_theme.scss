@@ -455,3 +455,12 @@ pre code {
     overflow-x: scroll;
   }
 }
+
+.caption {
+  display: block;
+  text-align: center;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: gray !important;
+  font-size: 90% !important;
+}
